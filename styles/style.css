@@ -54,11 +54,6 @@ h1 {
   margin-top: 0;
 }
 
-span {
-  font-weight: bold;
-  color: yellowgreen;
-}
-
 .card {
   max-width: 300px;
   border: 2px solid #ddd;
@@ -405,4 +400,15 @@ tr:hover {
 .bioCandidato .recent-activities .card-content {
   padding: 1em;
   background-color: #f9f9f9;
+}
+
+.button-fav-candidato {
+  background-color: #555;
+  border: none;
+  color: white;
+  padding: 10px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
 }
