@@ -14,8 +14,7 @@
     </header>
     <nav class="navbar">
         <ul class="menu">
-            <li><a href="#buy" class="nav-link">Candidatos</a></li>
-            <li><a href="#pesquisa">Pesquisa</a></li>
+            <li><a href="#buy" class="nav-link">Pesquisa</a></li>
             <li><a href="#match">Match Eleitoral</a></li>
             <li><a href="#cedula">Cédula Eleitoral</a></li>
             <li><a href="#chatbox">Chatbox</a></li>
@@ -26,8 +25,7 @@
             <nav>
                 <ul>
                     <li><a href="#home" class="nav-link">Home</a></li>
-                    <li><a href="#detail" class="nav-link">Notícias</a></li>
-                    <li><a href="#buy" class="nav-link">Eleição 2024</a></li>
+                    <li><a href="#bioCandidato" class="nav-link">Bio candidato</a></li>
                 </ul>
             </nav>
         </aside>
@@ -48,11 +46,71 @@
                     </article>
                 </section>
             </section>
-            <section id="detail" class="section" >
-                <h1>Noticias</h1>
+            <section id="bioCandidato" class="section">
+                <article>
+                    <h1>Perfil do Candidato</h1>
+                    <h2>Nome: Arlindo Ferreira Melo</h2>
+                    <button aria-label="Favoritar perfil do candidato">Favoritar</button>
+                    <div class="apresentacaoCandidato">
+                        <div class="infoCandidato">
+                            <div class="imgCandidato">
+                                <figure>
+                                    <img src="/images/candidato1.jpg" alt="Foto do Candidato Arlindo Ferreira Melo" width="100px" height="100px">
+                                    <figcaption>
+                                        Candidato Arlindo Ferreira Melo do partido PFSD</figcaption>
+                                </figure>
+                            </div>
+                            <section aria-labelledby="bio-description">
+                                <h3 class="" id="bio-description">Quem ele é:</h3>
+                                <p>Arlindo Ferreira Melo, 42 anos, é administrador de empresas com MBA em Gestão Pública pela Universidade de São Carlos. Após uma carreira no setor privado, decidiu aplicar suas habilidades em projetos sociais.</p>
+                                <p>Desde 2012, Arlindo atua como voluntário em iniciativas de revitalização de praças e cursos de capacitação para jovens em situação de vulnerabilidade. Como coordenador de projetos em uma ONG, se destacou na promoção de inclusão social e desenvolvimento comunitário.</p>
+                                <p>Candidato a vereador pelo Partido da Transformação Social, Arlindo propõe melhorias em educação, segurança, infraestrutura e saúde. Entre suas propostas estão programas de capacitação para jovens, fortalecimento do policiamento comunitário e investimento em áreas públicas.</p>
+                                <p>Ele acredita que a transformação começa na comunidade e se compromete a ser um vereador acessível e transparente. Fora do trabalho, é entusiasta de esportes ao ar livre e aprecia atividades culturais.</p>
+                            </section>
+                            <section class="carreiraPolitica" aria-labelledby="political-career">
+                                <h3 id="political-career">O que já fez:</h3>
+                                <p>Na sua carreira política, Arlindo Ferreira Melo se destacou por implementar diversas iniciativas voltadas para o bem-estar comunitário. Como vereador, promoveu programas de capacitação profissional para jovens, melhorou a infraestrutura urbana e fortaleceu o policiamento comunitário.</p>
+                                <p>Além disso, Arlindo foi responsável por projetos significativos de revitalização de áreas públicas e pela promoção de campanhas de saúde preventiva. Seu trabalho foi marcado pelo compromisso com a transparência e o diálogo aberto com a população, sempre buscando atender às necessidades locais e fomentar o desenvolvimento sustentável.</p>
+                            </section>
+                            <section class="ultimasAtividadesCandidato" aria-labelledby="recent-activities">
+                                <h3 id="recent-activities">Suas últimas contribuições ao povo</h3>
+                                <div class="conjNoticiasCandidato">
+                                    <article class="card">
+                                        <img src="https://via.placeholder.com/600x400" alt="Imagem ilustrativa do programa Juventude Empreendedora" aria-labelledby="card1-title">
+                                        <div class="card-content">
+                                            <h2 id="card1-title" class="card-title">Lançamento do Programa Empreendedor</h2>
+                                            <p>Programa para capacitar jovens em situação de vulnerabilidade.</p>
+                                        </div>
+                                    </article>
+                                    <article class="card">
+                                        <img src="https://via.placeholder.com/600x400" alt="Imagem da revitalização da Praça Central" aria-labelledby="card2-title">
+                                        <div class="card-content">
+                                            <h2 id="card2-title" class="card-title">Revitalização da Praça Central</h2>
+                                            <p>Novas áreas de lazer e melhorias na iluminação.</p>
+                                        </div>
+                                    </article>
+                                    <article class="card">
+                                        <img src="https://via.placeholder.com/600x400" alt="Imagem representativa do policiamento comunitário" aria-labelledby="card3-title">
+                                        <div class="card-content">
+                                            <h2 id="card3-title" class="card-title">Fortalecimento do Policiamento</h2>
+                                            <p>Redução da violência na região através de policiamento reforçado.</p>
+                                        </div>
+                                    </article>
+                                    <article class="card">
+                                        <img src="https://via.placeholder.com/600x400" alt="Imagem ilustrativa das campanhas de saúde" aria-labelledby="card4-title">
+                                        <div class="card-content">
+                                            <h2 id="card4-title" class="card-title">Campanhas de Saúde Preventiva</h2>
+                                            <p>Oferecimento de exames gratuitos e workshops sobre saúde.</p>
+                                        </div>
+                                    </article>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </article>
             </section>
             <section id="buy" class="section">
-                <h1>Eleição 2024</h1>
+                <h1>Pesquisa de candidatos</h1>
                 <div class="container2">
                     <h1>Lista de Candidatos</h1>
                     <input type="text" id="searchInput" onkeyup="filterTable()" placeholder="Pesquisar por nome, estado ou partido...">
