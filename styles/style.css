@@ -250,10 +250,14 @@ tr:hover {
   padding: 1em;
 }
 
-.bioCandidato h2 {
+.bioCandidato {
   font-size: 2.5em;
   margin-bottom: 0.5em;
   color: #000;
+}
+
+#bioCandidato h2 {
+  text-align: center;
 }
 
 .bioCandidato h3 {
